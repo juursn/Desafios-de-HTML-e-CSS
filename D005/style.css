@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font: normal 150 1em 'Raleway';
+    background-color: #4281a4;
+}
+
+h1{
+    font-weight: 800;
+    color: aliceblue;
+}
+
+div{
+    padding: right 10px;
+    background-color: #aec3b0;
+    border-radius: 35px;
+    color: white;
+}
+
+img {
+    border-radius: 100%;
+    size: 30px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+#foto-perfil{
+    border-radius: 100%;
+    width: 320px;
+    height: 320px;     
+}
