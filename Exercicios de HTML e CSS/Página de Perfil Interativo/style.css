@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Permanent+Marker&display=swap');
+#main{
+    font-family: Permanent Marker, cursive, Arial;
+    color: #775c41;
+
+}
+#main:hover{
+    font-variant: small-caps;
+}
+
+.foto:hover {
+    transition: all 1s;    
+    transform: rotate(360deg);
+}
+abbr:hover{
+    color: black;
+}
+body{
+    font-family: Caveat Brush;
+    color: #b08860;
+    background-color: #ccd5ae;
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    background-color: #fefae0;
+    border-radius: 30px;
+    height: auto; width: fit-content;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    box-shadow: -10px 5px 5px #00000019;
+
+}
+#tudo{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: auto;
+
+}
+.card{
+    background-color: #FAEDCD;
+    width: 150px; height: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card:hover{
+    background-color: #adc178;
+    transition: all 1s;
+    animation: ease-in-out;
+}
+
+#und:hover{
+ text-decoration: underline;
+}
+#abr{
+    text-decoration: none;
+}
+a{
+    color: #4d3c2b;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
